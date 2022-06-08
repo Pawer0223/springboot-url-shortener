@@ -1,6 +1,7 @@
 package com.taehan.urlshortener.service;
 
 import com.taehan.urlshortener.dto.UrlRequestDto;
+import com.taehan.urlshortener.model.AlgorithmType;
 import com.taehan.urlshortener.model.Url;
 import com.taehan.urlshortener.repository.UrlRepository;
 import org.springframework.stereotype.Service;

@@ -39,6 +39,7 @@ class UrlRepositoryTest {
         Url url = new Url("url.com", "ss",  AlgorithmType.BASE62);
         Url url2 = new Url("url2.com", "ss2",  AlgorithmType.BASE62);
 
+
         urlRepository.save(url);
         urlRepository.save(url2);
 
@@ -49,6 +50,7 @@ class UrlRepositoryTest {
                 () -> assertThat(urlList).contains(url2)
         );
     }
+
 
     @Test
     void TestFindByShortUrl() {

@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+
 class AlgorithmTypeTest {
 
     @Test
@@ -20,6 +21,7 @@ class AlgorithmTypeTest {
 
         convert = AlgorithmType.BASE62.convert(3521614606207L);
         assertThat(convert).isEqualTo("9999999");
+
 
 
     }
